@@ -14,7 +14,7 @@
 
 <body>
 <!-- navbar -->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <nav class="navbar navbar-light navbar-expand-sm bg-light">
         <a href="/" class="navbar-brand">
             Whiskey Drop
         </a>
@@ -40,7 +40,7 @@
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
                 <i>Great whiskey delivered to your door!</i>
-                <a href="/login" class="ml-2">
+                <a href="/login" class="">
                     Sign In / Sign Up!
                 </a>
             </p>
@@ -48,32 +48,37 @@
     </nav>
 
 <!-- main content container -->
-    <article class="container">
+    <article class="container mt-3">
         <!-- callout section -->
-        <section class="callout">
-            <div class="row">
-                <div class="col-12">
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
                     <h1>
                         The finest whiskeys delivered to your doorstep
                     </h1>
                     <p class="lead">
                         Sign up today to start receiving the world's best whiskeys every month.
-                        <s>£19.99</s> <strong><mark>First one is free!</mark></strong>
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-sm-none"><br></span>
+                        <strong>
+                            <mark>First one is free!</mark>
+                        </strong>
                     </p>
                     <p class="text-muted">
                         <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
                     </p>
                     <button class="btn btn-lg btn-success">Sign Up!</button>
-                </div>
+                </section>
             </div>
-        </section>
+        </div>
+        
 
         <hr>
 
         <!-- Quotes -->
-        <section class="quote">
+        <section class="quotes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes:</h2>
                 </div>
             </div>
@@ -98,7 +103,7 @@
         <!-- Features section -->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
