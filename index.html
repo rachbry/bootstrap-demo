@@ -15,17 +15,17 @@
 </head>
 
 <body>
-<!-- navbar -->
+    <!-- navbar -->
     <nav class="navbar navbar-light navbar-expand-sm bg-light">
         <a href="/" class="navbar-brand">
             Whiskey Drop
         </a>
-<!-- burger button -->
+        <!-- burger button -->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#my-nav-bar"
             aria-controls="my-nav-bar" aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-<!-- navbar items -->
+        <!-- navbar items -->
         <div class="collapse navbar-collapse" id="my-nav-bar">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2">
@@ -38,9 +38,10 @@
                         About
                     </a>
                 </li>
-<!-- whiskeys dropdown menu -->
+                <!-- whiskeys dropdown menu -->
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="my-nav-bar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="nav-link dropdown-toggle" id="my-nav-bar-dropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Whiskeys
                     </a>
                     <div class="dropdown-menu" aria-labelledby="my-nav-bar-dropdown">
@@ -58,7 +59,7 @@
                 </li>
             </ul>
         </div>
-<!-- navbar text on right -->
+        <!-- navbar text on right -->
         <div class="d-none d-lg-block">
             <p class="navbar-text my-auto mr-2">
                 <i>Great whiskey delivered to your door! </i>
@@ -69,7 +70,7 @@
         </div>
     </nav>
 
-<!-- main content container -->
+    <!-- main content container -->
     <article class="container mt-3">
         <!-- alert box -->
         <div class="row d-none d-sm-block">
@@ -80,7 +81,7 @@
                 </div>
             </div>
         </div>
-<!-- callout section -->
+        <!-- callout section -->
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -98,12 +99,13 @@
                     <p class="text-muted">
                         <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
                     </p>
-                    <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#sign-up-modal" type="button">Sign Up!</button>
+                    <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#sign-up-modal"
+                        type="button">Sign Up!</button>
                 </section>
             </div>
         </div>
         <hr>
-<!-- Quotes -->
+        <!-- Quotes -->
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -111,7 +113,7 @@
                 </div>
             </div>
             <div class="row">
-<!-- girl quote -->
+                <!-- girl quote -->
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
@@ -128,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-<!-- guy quote -->
+                    <!-- guy quote -->
                     <div class="media">
                         <div class="d-none d-sm-block">
                             <img src="./assets/media/guy-image.png" alt="photo of John Doe" class="rounded-circle mr-3"
@@ -146,7 +148,7 @@
             </div>
         </section>
         <hr>
-<!-- Features section -->
+        <!-- Features section -->
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -199,42 +201,40 @@
         </section>
     </article>
 
-<!-- modal for sign up page -->
+    <!-- modal for sign up page -->
     <div class="modal" tabindex="-1" id="sign-up-modal">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Uo For Whiskey Drop!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
 <!-- form -->
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword2">Repeat Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <!-- bootstrap javascript scripts-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
