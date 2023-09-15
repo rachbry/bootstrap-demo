@@ -20,24 +20,31 @@
         <a href="/" class="navbar-brand">
             Whiskey Drop
         </a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2">
-                <a href="/" class="nav-link">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item mr-2">
-                <a href="/about" class="nav-link">
-                    About
-                </a>
-            </li>
-            <li class="nav-item mr-2 d-md-none d-block">
-                <a href="/login" class="nav-link">
-                    Sign In / Sign Up!
-                </a>
-
-            </li>
-        </ul>
+<!-- burger button -->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#my-nav-bar"
+            aria-controls="my-nav-bar" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+<!-- navbar items -->
+        <div class="collapse navbar-collapse" id="my-nav-bar">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2">
+                    <a href="/" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a href="/about" class="nav-link">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item mr-2 d-md-none d-block">
+                    <a href="/login" class="nav-link">
+                        Sign In / Sign Up!
+                    </a>
+                </li>
+            </ul>
+        </div>
 <!-- navbar text on right -->
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
@@ -51,12 +58,12 @@
 
 <!-- main content container -->
     <article class="container mt-3">
-<!-- alert box -->
+        <!-- alert box -->
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning text-center">
                     <strong>Sale Now On!</strong>
-                    We've got a sale on.  Get a 12-month subscription for the price of 6!
+                    We've got a sale on. Get a 12-month subscription for the price of 6!
                 </div>
             </div>
         </div>
@@ -78,7 +85,7 @@
                     <p class="text-muted">
                         <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
                     </p>
-                    <button class="btn btn-lg btn-success">Sign Up!</button>
+                    <button class="btn btn-lg btn-success" type="button">Sign Up!</button>
                 </section>
             </div>
         </div>
@@ -95,12 +102,14 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="./assets/media/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="./assets/media/girl-image.png" alt="photo of Jane Doe" class="rounded-circle mr-3"
+                                height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p>I've been introduced to more than 10 great whiskeys I never knew about.</p>
-                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
+                                </footer>
                             </blockquote>
                         </div>
                     </div>
@@ -109,12 +118,14 @@
 <!-- guy quote -->
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="./assets/media/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="./assets/media/guy-image.png" alt="photo of John Doe" class="rounded-circle mr-3"
+                                height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p>I haven't been sober for months!</p>
-                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
+                                </footer>
                             </blockquote>
                         </div>
                     </div>
@@ -132,7 +143,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge badge-success">New!</span></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ratione minima dignissimos
                             cupiditate necessitatibus quaerat quis nesciunt expedita ex distinctio vero hic, quia quas,
                             dolor
@@ -175,7 +187,7 @@
 
     </article>
 
-<!-- bootstrap javascript scripts-->
+    <!-- bootstrap javascript scripts-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
