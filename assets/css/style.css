@@ -2,10 +2,21 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-alert-container {}
+.alert-container {}
 
-callout-container {}
+.callout-container {
+    height: 100vh;
+    background-image: url("/assets/media/whiskey-background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 
-quotes-container {}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-features-container {}
+}
+
+.quotes-container {}
+
+.features-container {}
