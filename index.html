@@ -8,10 +8,16 @@
     <!-- bootstrap - put before any other stylesheet-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/89fa774aea.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -70,9 +76,8 @@
         </div>
     </nav>
 
-    <!-- main content container -->
-    <article class="container mt-3">
-        <!-- alert box -->
+    <!-- alert section -->
+    <div class="container  alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning text-center">
@@ -81,7 +86,9 @@
                 </div>
             </div>
         </div>
-        <!-- callout section -->
+    </div>
+    <!-- callout section -->
+    <div class="container callout-container">
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -104,8 +111,9 @@
                 </section>
             </div>
         </div>
-        <hr>
-        <!-- Quotes -->
+    </div>
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -147,8 +155,9 @@
                 </div>
             </div>
         </section>
-        <hr>
-        <!-- Features section -->
+    </div>
+    <!-- Features section -->
+    <div class="container features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -199,7 +208,7 @@
                 </div>
             </div>
         </section>
-    </article>
+    </div>
 
     <!-- modal for sign up page -->
     <div class="modal" tabindex="-1" id="sign-up-modal">
@@ -212,7 +221,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-<!-- form -->
+                    <!-- form -->
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -223,11 +232,13 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Please enter password">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Please enter password">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword2">Repeat Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Please repeat password">
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Please repeat password">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
