@@ -2,6 +2,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.container-wrapper {}
+
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -42,6 +50,51 @@ body {
 .quotes-container {}
 
 .features-container {}
+
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0px;  
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
+
+/* block dividers */
+
+.block-divider {
+    border: 10px dotted #444;
+    border-style: none none dotted;
+    width: 80px;
+}
+
+.block-divider--orange {
+    border-color: #f05f40;
+}
+
+.block-divider--white {
+    border-color: white;
+}
+
+.block-divider--short {
+    width: 40px;
+}
+
+/* Content container */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 /* Navbar */
 
@@ -120,20 +173,23 @@ body {
     border-color: #C43408;  
 }
 
-
-
-/* block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.block-divider--orange {
-    background-color: #f05f40;
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
 
-.block-divider--short {
-
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
