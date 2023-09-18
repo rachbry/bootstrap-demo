@@ -26,7 +26,7 @@ body {
 
 .callout-container {
     height: 100vh;
-    background-image: url("/assets/media/whiskey-background.jpg"); 
+    background-image: url("../media/whiskey-background.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
